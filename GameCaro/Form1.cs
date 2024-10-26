@@ -28,15 +28,28 @@ namespace GameCaro
             prcbCoolDown.Value = 0;
             tmCoolDown.Interval = Cons.COOL_DOWN_INTERVAL;
 
-            BanCo.VeBanCo();
+            NewGame();
         }
-
+        #region Methods
         void EndGame()
         {
             tmCoolDown.Stop();
             pnlBanCo.Enabled = false;
             MessageBox.Show("End Game");
             
+        }
+        void Quit()
+        {
+            Application.Exit();
+        }
+
+        void NewGame()
+        {
+            prcbCoolDown.Value = 0;
+            tmCoolDown.Stop();
+            BanCo.VeBanCo();
+            
+
         }
 
         void BanCo_PlayerMarked(object sender, EventArgs e)
@@ -49,6 +62,37 @@ namespace GameCaro
         {
             EndGame();
         }
+
+       
+        private void tmCoolDown_Tick(object sender, EventArgs e)
+        {
+            prcbCoolDown.PerformStep();
+
+            if(prcbCoolDown.Value >= prcbCoolDown.Maximum)
+            {
+                
+                EndGame() ;
+                
+            }
+        }
+
+        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewGame();
+        }
+
+        private void quitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+                Quit();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Bạn có chắc muốn thoát Game!", "Thông báo", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
+
+                    e.Cancel = true;
+        }
+        #endregion
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
@@ -75,16 +119,6 @@ namespace GameCaro
 
         }
 
-        private void tmCoolDown_Tick(object sender, EventArgs e)
-        {
-            prcbCoolDown.PerformStep();
-
-            if(prcbCoolDown.Value >= prcbCoolDown.Maximum)
-            {
-                
-                EndGame() ;
-                
-            }
-        }
     }
+  
 }

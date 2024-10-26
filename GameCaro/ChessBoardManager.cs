@@ -86,14 +86,18 @@ namespace GameCaro
                 new Player("BoBo",Image.FromFile(Application.StartupPath + "\\Resources\\x.png")),
                 new Player("HeHe",Image.FromFile(Application.StartupPath + "\\Resources\\o.png"))
             };  
-            CurrentPlayer = 0;
-            ChangePlayer();
+           
         }
         #endregion
         #region Methods
         public void VeBanCo()
         {
             BanCo.Enabled = true;
+
+            BanCo.Controls.Clear();
+            CurrentPlayer = 0;
+            ChangePlayer();
+
             Matrix = new List<List<Button>>();
 
             Button oldButton = new Button() { Width = 0, Location = new Point(0, 0) };
