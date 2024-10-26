@@ -18,3 +18,23 @@ C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResou
 C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
 C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.exe
 C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\lqq\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\lqq\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\lqq\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.pdb

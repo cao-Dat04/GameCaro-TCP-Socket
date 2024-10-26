@@ -15,8 +15,8 @@ namespace GameCaro
 
         public Panel BanCo
         {
-            get { return banCo; } 
-            set { banCo = value; } 
+            get { return banCo; }
+            set { banCo = value; }
         }
 
 
@@ -30,7 +30,7 @@ namespace GameCaro
         private TextBox playerName;
         public TextBox PlayerName
         {
-            get { return  playerName;}
+            get { return playerName; }
             set { playerName = value; }
         }
 
@@ -40,10 +40,44 @@ namespace GameCaro
             get { return playerMark; }
             set { playerMark = value; }
         }
-    #endregion
 
-    #region Initialize
-    public ChessBoardManager(Panel banCo, TextBox playerName, PictureBox mark) { 
+        private List<List<Button>> matrix;
+        public List<List<Button>> Matrix
+        {
+            get { return matrix; }
+            set { matrix = value; }
+        }
+
+        private event EventHandler playerMarked;
+        public event EventHandler PlayerMarked
+        {
+            add 
+            {
+                playerMarked += value;
+            }
+            remove
+            {
+                playerMarked -= value;
+            }
+        }
+
+        private event EventHandler endedGame;
+        public event EventHandler EndedGame
+        {
+            add
+            {
+                endedGame += value;
+            }
+            remove
+            {
+                endedGame -= value;
+            }
+        }
+
+        #endregion
+
+        #region Initialize
+        public ChessBoardManager(Panel banCo, TextBox playerName, PictureBox mark) { 
             this.BanCo = banCo;
             this.PlayerName = playerName;
             this.PlayerMark = mark;
@@ -53,15 +87,19 @@ namespace GameCaro
                 new Player("HeHe",Image.FromFile(Application.StartupPath + "\\Resources\\o.png"))
             };  
             CurrentPlayer = 0;
-            changePlayer();
+            ChangePlayer();
         }
         #endregion
         #region Methods
         public void VeBanCo()
         {
+            BanCo.Enabled = true;
+            Matrix = new List<List<Button>>();
+
             Button oldButton = new Button() { Width = 0, Location = new Point(0, 0) };
             for (int i = 0; i < Cons.CHESS_HEIGHT; i++)
             {
+                Matrix.Add(new List<Button>());
 
                 for (int j = 0; j < Cons.CHESS_WIDTH; j++)
                 {
@@ -71,9 +109,11 @@ namespace GameCaro
                         Height = Cons.CHESS_HEIGHT,
                         Location = new Point(oldButton.Location.X + oldButton.Width, oldButton.Location.Y),
                         BackgroundImageLayout = ImageLayout.Stretch,
+                        Tag = i.ToString()
                     };
                     btn.Click += btn_Click;
                     BanCo.Controls.Add(btn);
+                    Matrix[i].Add(btn);
                     oldButton = btn;
                 }
                 oldButton.Location = new Point(0, oldButton.Location.Y + Cons.CHESS_HEIGHT);
@@ -88,16 +128,158 @@ namespace GameCaro
             if (btn.BackgroundImage != null)
                 return;
             Mark(btn);
-            changePlayer();
-          
+
+            ChangePlayer();
+            if (playerMarked != null)
+                playerMarked(this, new EventArgs());
+
+            if (isEndGame(btn))
+            {
+                EndGame();
+            }
+            
         }
+
+        public void EndGame()
+        {
+           if (endedGame != null) 
+                endedGame(this, new EventArgs());
+        }
+        private bool isEndGame(Button btn)
+        {
+            return isEndHorizontal(btn) || isEndVertical(btn) || isPrimary(btn) || isEndSub(btn);
+        }
+
+        private Point GetChessPoint(Button btn)
+        {
+            int vertical = Convert.ToInt32(btn.Tag);
+            int horizontal = Matrix[vertical].IndexOf(btn);
+            Point point = new Point(horizontal, vertical);
+            return point;
+        }
+
+        private bool isEndHorizontal(Button btn)
+        {
+            Point point = GetChessPoint(btn);
+            int countLeft = 0;
+            for (int i = point.X; i >= 0; i--)
+            {
+                if (Matrix[point.Y][i].BackgroundImage == btn.BackgroundImage)
+                {
+                    countLeft++;
+                }
+                else
+                    break;
+            }
+            int countRight = 0;
+            for (int i = point.X +1; i < Cons.CHESS_BOARD_WIDTH; i++)
+            {
+                if (Matrix[point.Y][i].BackgroundImage == btn.BackgroundImage)
+                {
+                    countRight++;
+                }
+                else
+                    break;
+            }
+            return countLeft + countRight == 5;
+        }
+
+        private bool isEndVertical(Button btn)
+        {
+            Point point = GetChessPoint(btn);
+            int countTop = 0;
+            for (int i = point.Y; i >= 0; i--)
+            {
+                if (Matrix[i][point.X].BackgroundImage == btn.BackgroundImage)
+                {
+                    countTop++;
+                }
+                else
+                    break;
+            }
+            int countBottom = 0;
+            for (int i = point.Y + 1; i < Cons.CHESS_BOARD_HEIGHT; i++)
+            {
+                if (Matrix[i][point.X].BackgroundImage == btn.BackgroundImage)
+                {
+                    countBottom++;
+                }
+                else
+                    break;
+            }
+            return countTop + countBottom == 5;
+        }
+
+        private bool isPrimary(Button btn)
+        {
+            Point point = GetChessPoint(btn);
+            int countTop = 0;
+            for (int i = 0; i <= point.X; i++)
+            {
+                if (point.X +i > Cons.CHESS_BOARD_WIDTH || point.Y -i < 0)
+                    break;
+
+                if (Matrix[point.Y - i][point.X+i].BackgroundImage == btn.BackgroundImage)
+                {
+                    countTop++;
+                }
+                else
+                    break;
+            }
+            int countBottom = 0;
+            for (int i = 1; i <= Cons.CHESS_BOARD_WIDTH - point.X; i++)
+            {
+                if (point.Y +i > Cons.CHESS_BOARD_HEIGHT|| point.X - i < 0)
+                    break;
+                if (Matrix[point.Y + i][point.X - i].BackgroundImage == btn.BackgroundImage)
+                {
+                    countBottom++;
+                }
+                else
+                    break;
+            }
+            return countTop + countBottom == 5;
+        }
+
+        private bool isEndSub(Button btn)
+        {
+            Point point = GetChessPoint(btn);
+            int countTop = 0;
+            for (int i = 0; i <= point.X; i++)
+            {
+                if (point.X - i < 0 || point.Y - i < 0)
+                    break;
+
+                if (Matrix[point.Y - i][point.X - i].BackgroundImage == btn.BackgroundImage)
+                {
+                    countTop++;
+                }
+                else
+                    break;
+            }
+            int countBottom = 0;
+            for (int i = 1; i <= Cons.CHESS_BOARD_WIDTH - point.X; i++)
+            {
+                if (point.Y + i > Cons.CHESS_BOARD_HEIGHT || point.X + i >= Cons.CHESS_BOARD_WIDTH)
+                    break;
+                if (Matrix[point.Y + i][point.X + i].BackgroundImage == btn.BackgroundImage)
+                {
+                    countBottom++;
+                }
+                else
+                    break;
+            }
+            return countTop + countBottom == 5;
+        }
+
+
         private void Mark(Button btn)
         {
             btn.BackgroundImage = Player[CurrentPlayer].Mark;
             CurrentPlayer = CurrentPlayer == 1 ? 0 : 1;
         }
 
-        private void changePlayer()
+        private void ChangePlayer()
         {
             PlayerName.Text = Player[CurrentPlayer].Name;
             PlayerMark.Image = Player[CurrentPlayer].Mark;
