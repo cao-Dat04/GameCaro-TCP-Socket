@@ -17,6 +17,7 @@ namespace GameCaro
     {
         #region CLient
         Socket client;
+        public bool IsConnected => client?.Connected ?? false;
         public bool ConnectServer()
         {
             IPEndPoint iep = new IPEndPoint(IPAddress.Parse(IP), PORT);

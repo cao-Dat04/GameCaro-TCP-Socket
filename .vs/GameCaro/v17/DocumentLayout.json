@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\trand\\OneDrive\\Desktop\\GameCaro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Users\\trand\\OneDrive\\Desktop\\GameCaro\\gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|c:\\users\\trand\\onedrive\\desktop\\gamecaro\\gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\socketdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|c:\\users\\trand\\onedrive\\desktop\\gamecaro\\gamecaro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Users\\trand\\OneDrive\\Desktop\\GameCaro\\gamecaro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "GameCaro\\SocketData.cs",
               "ToolTip": "C:\\Users\\trand\\OneDrive\\Desktop\\GameCaro\\GameCaro\\SocketData.cs",
               "RelativeToolTip": "GameCaro\\SocketData.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA2wC4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T07:19:23.608Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "GameCaro\\Form1.cs",
               "ToolTip": "C:\\Users\\trand\\OneDrive\\Desktop\\GameCaro\\GameCaro\\Form1.cs",
               "RelativeToolTip": "GameCaro\\Form1.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAcwHEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAQwJkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T15:07:06.766Z",
               "EditorCaption": ""
@@ -78,7 +78,7 @@
               "RelativeDocumentMoniker": "GameCaro\\SocketManager.cs",
               "ToolTip": "C:\\Users\\trand\\OneDrive\\Desktop\\GameCaro\\GameCaro\\SocketManager.cs",
               "RelativeToolTip": "GameCaro\\SocketManager.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowEcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T12:10:17.219Z",
               "EditorCaption": ""

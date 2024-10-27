@@ -19,6 +19,7 @@ namespace GameCaro
         #region Properties
         ChessBoardManager BanCo;
         SocketManager socket;
+        bool isConnecting = false;
         #endregion
         public Form1()
         {
@@ -148,6 +149,17 @@ namespace GameCaro
 
         private void btnLAN_Click(object sender, EventArgs e)
         {
+            if (socket.IsConnected) // Thêm thuộc tính IsConnected vào SocketManager để kiểm tra trạng thái kết nối
+            {
+                MessageBox.Show("Đã kết nối rồi");
+                return;
+            }
+            else if(isConnecting)
+            {
+                MessageBox.Show("Đang trong quá trình kết nối. Vui lòng đợi...");
+                return;
+            }
+            isConnecting = true;
             socket.IP = txbIP.Text;
             if (!socket.ConnectServer())
             {
