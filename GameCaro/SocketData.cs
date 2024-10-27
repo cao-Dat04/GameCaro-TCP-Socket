@@ -30,11 +30,35 @@ namespace GameCaro
             get { return message; }
             set { message = value; }
         }
-        public SocketData(int commmand, string message, Point point) 
+
+        private string chatMessage;
+        public string ChatMessage
+        {
+            get { return chatMessage; }
+            set { chatMessage = value; }
+        }
+
+        private string sender;
+        public string Sender
+        {
+            get { return sender; }
+            set { sender = value; }
+        }
+
+        private DateTime timestamp;
+        public DateTime Timestamp
+        {
+            get { return timestamp; }
+            set { timestamp = value; }
+        }
+        public SocketData(int commmand, string message, Point point, string sender = "", DateTime timestamp = default, string chatMessage = "") 
         { 
             this.Command = commmand;
             this.Point = point;
             this.Message = message;
+            this.Timestamp = timestamp == default(DateTime) ? DateTime.Now : timestamp;
+            this.sender = sender;
+            this.chatMessage = chatMessage;
         }
     }
 
@@ -45,6 +69,7 @@ namespace GameCaro
         NEW_GAME,
         END_GAME,
         TIME_OUT,
-        QUIT
+        QUIT,
+        CHAT_MESSAGE
     }
 }

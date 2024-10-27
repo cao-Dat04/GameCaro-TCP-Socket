@@ -45,6 +45,10 @@ namespace GameCaro
             Thread acceptClient = new Thread(() =>
             {
                 client = server.Accept();
+                OnClientConnected?.Invoke("Kết nối với Client thành công");
+
+
+
             });
             acceptClient.IsBackground = true;
             acceptClient.Start();
@@ -56,6 +60,8 @@ namespace GameCaro
         public int PORT = 9999;
         public const int BUFFER = 1024;
         public bool isServer = true;
+
+        public event Action<string> OnClientConnected;
 
         public bool Send(object data)
         {
@@ -70,12 +76,12 @@ namespace GameCaro
         }
         private bool SendData(Socket target, byte[] data)
         {
-            return target.Send(data) == 1 ? true : false;
+            return target.Send(data) > 0;
         }
 
         private bool ReceiveData(Socket target, byte[] data)
         {
-            return target.Receive(data) == 1 ? true : false;
+            return target.Receive(data) > 0;
         }
         
 

@@ -36,6 +36,14 @@ namespace GameCaro
             socket = new SocketManager();
 
             NewGame();
+
+            socket.OnClientConnected += (message) =>
+            {
+                this.Invoke((MethodInvoker)(() =>
+                {
+                    txt_result.AppendText(message + Environment.NewLine);
+                }));
+            };
         }
         #region Methods
         void EndGame()
@@ -122,9 +130,20 @@ namespace GameCaro
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            txt_message.KeyDown += new KeyEventHandler(txt_message_KeyDown);
         }
 
+        private void txt_message_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                // Ngăn không cho tiếng "ding" khi nhấn Enter
+                e.SuppressKeyPress = true;
+
+                // Gọi phương thức gửi tin nhắn
+                SendMessage();
+            }
+        }
 
         private void pnlBanCo_Paint(object sender, PaintEventArgs e)
         {
@@ -166,11 +185,13 @@ namespace GameCaro
                 socket.isServer = true;
                 pnlBanCo.Enabled = true;
                 socket.CreateServer();
+                txt_result.AppendText("Server đang chờ kết nối..." + Environment.NewLine);
             }
             else
             {
                 socket.isServer = false;
                 pnlBanCo.Enabled=false;
+                txt_result.AppendText("Đã kết nối với server." + Environment.NewLine);
                 Listen();
             }
             
@@ -231,6 +252,17 @@ namespace GameCaro
                 case (int)SocketCommand.TIME_OUT:
                     MessageBox.Show("Hết giờ");
                     break;
+
+                case (int)SocketCommand.CHAT_MESSAGE:
+                    this.Invoke((MethodInvoker)(() =>
+                    {
+                        // Hiển thị tin nhắn chat
+                        string displayMessage = $"Khách: {data.ChatMessage}";
+                        // Giả sử bạn có một TextBox hoặc RichTextBox để hiển thị chat
+                        txt_result.AppendText(displayMessage + Environment.NewLine);
+                    }));
+                    break;
+
                 default:
                     break;
             }
@@ -238,6 +270,40 @@ namespace GameCaro
             Listen();
         }
         #endregion
+
+        private void txbPlayerName_TextChanged(object sender, EventArgs e)//sender
+        {
+
+        }
+
+        private void txt_result_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_message_TextChanged(object sender, EventArgs e)//text chat
+        {
+
+        }
+
+        private void btn_Send_Click(object sender, EventArgs e)//send text chat
+        {
+            SendMessage();
+        }
+
+        private void SendMessage()
+        {
+            if (string.IsNullOrWhiteSpace(txt_message.Text)) return;
+
+            string message = txt_message.Text;
+            string senderName = txbPlayerName.Text;
+
+            socket.Send(new SocketData((int)SocketCommand.CHAT_MESSAGE, "", new Point(), senderName, DateTime.Now, message));
+            txt_result.AppendText("Bạn: " + message + "\n");
+
+            // Xóa nội dung ô nhập
+            txt_message.Clear();
+        }
     }
 
 }
