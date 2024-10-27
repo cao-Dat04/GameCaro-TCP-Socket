@@ -38,3 +38,13 @@ C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResourc
 C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
 C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.exe
 C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
