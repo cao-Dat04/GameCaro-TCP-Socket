@@ -42,6 +42,7 @@ namespace GameCaro
                 this.Invoke((MethodInvoker)(() =>
                 {
                     txt_result.AppendText(message + Environment.NewLine);
+                    Listen();
                 }));
             };
         }
@@ -116,6 +117,7 @@ namespace GameCaro
             {
                 try
                 {
+                    if (!socket.IsConnected) return;
                     socket.Send(new SocketData((int)SocketCommand.QUIT, "", new Point()));
                 }
                 catch { }

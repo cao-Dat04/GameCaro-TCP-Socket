@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\gamecaro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|c:\\users\\cao\\hoc tap\\2024\\c#\\carogame\\gamecaro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|c:\\users\\cao\\hoc tap\\2024\\c#\\carogame\\gamecaro\\chessboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\gamecaro\\chessboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\chessboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\gamecaro\\cons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\cons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SocketData.cs",
               "DocumentMoniker": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\GameCaro\\SocketData.cs",
               "RelativeDocumentMoniker": "GameCaro\\SocketData.cs",
@@ -59,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\GameCaro\\Form1.cs",
               "RelativeDocumentMoniker": "GameCaro\\Form1.cs",
@@ -67,11 +67,12 @@
               "RelativeToolTip": "GameCaro\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T16:46:49.292Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ChessBoardManager.cs",
               "DocumentMoniker": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\GameCaro\\ChessBoardManager.cs",
               "RelativeDocumentMoniker": "GameCaro\\ChessBoardManager.cs",
@@ -79,25 +80,24 @@
               "RelativeToolTip": "GameCaro\\ChessBoardManager.cs",
               "ViewState": "AgIAAC4BAAAAAAAAAAA2wEYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T17:07:44.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T17:07:44.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SocketManager.cs",
               "DocumentMoniker": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\GameCaro\\SocketManager.cs",
               "RelativeDocumentMoniker": "GameCaro\\SocketManager.cs",
               "ToolTip": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\GameCaro\\SocketManager.cs",
               "RelativeToolTip": "GameCaro\\SocketManager.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAuwE4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAE4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T12:10:17.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\GameCaro\\Program.cs",
               "RelativeDocumentMoniker": "GameCaro\\Program.cs",
@@ -109,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\GameCaro\\Player.cs",
               "RelativeDocumentMoniker": "GameCaro\\Player.cs",
@@ -121,15 +121,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\GameCaro\\Form1.cs",
               "RelativeDocumentMoniker": "GameCaro\\Form1.cs",
               "ToolTip": "C:\\Users\\cao\\HOC TAP\\2024\\C#\\CaroGame\\GameCaro\\Form1.cs",
               "RelativeToolTip": "GameCaro\\Form1.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAMwEMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABMBAAAAAAAAAAA4wCoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T15:07:06.766Z"
+              "WhenOpened": "2024-10-23T15:07:06.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
