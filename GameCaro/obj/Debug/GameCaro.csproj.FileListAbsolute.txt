@@ -48,3 +48,13 @@ C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.Gene
 C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
 C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.exe
 C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.pdb
