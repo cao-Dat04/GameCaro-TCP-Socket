@@ -32,4 +32,4 @@
 
 # Lịch sử commit:
 ![z6038222528527_d2315aa9db71f1876840742ea90ba9b6](https://github.com/user-attachments/assets/9a63bedb-c557-4486-9cfa-18c46d6e220d)
-![z6038223535345_fc3b085a04a17e21979e2e40e71650ad](https://github.com/user-attachments/assets/619a92a2-ddb8-4ca9-9fdb-b7310472a944)
+![z6038223535345_fc3b085a04a17e21979e2e40e71650ad](https://github.com/user-attachments/assets/c6d7b927-a19d-44ec-90d1-964bfbb5e29a)
