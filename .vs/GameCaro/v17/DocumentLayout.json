@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|c:\\drivers\\gamecaro-tcp-socket-main (2)\\gamecaro\\cons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\cons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\gamecaro\\chessboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\chessboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\gamecaro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\gamecaro\\socketdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\socketdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\gamecaro\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\gamecaro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{653088FD-BADD-4B52-8F45-65994D4491DA}|GameCaro\\GameCaro.csproj|solutionrelative:gamecaro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SocketData.cs",
+              "DocumentMoniker": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\SocketData.cs",
+              "RelativeDocumentMoniker": "GameCaro\\SocketData.cs",
+              "ToolTip": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\SocketData.cs",
+              "RelativeToolTip": "GameCaro\\SocketData.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T07:19:23.608Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Form1.cs",
+              "RelativeDocumentMoniker": "GameCaro\\Form1.cs",
+              "ToolTip": "C:\\Users\\lqq\\Documents\\Zalo Received Files\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\Users\\lqq\\Documents\\Zalo Received Files\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:46:49.292Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Form1.cs",
+              "RelativeDocumentMoniker": "GameCaro\\Form1.cs",
+              "ToolTip": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Form1.cs",
+              "RelativeToolTip": "GameCaro\\Form1.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAowCkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:07:06.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SocketManager.cs",
+              "DocumentMoniker": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\SocketManager.cs",
+              "RelativeDocumentMoniker": "GameCaro\\SocketManager.cs",
+              "ToolTip": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\SocketManager.cs",
+              "RelativeToolTip": "GameCaro\\SocketManager.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAADwvxEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T12:10:17.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cons.cs",
+              "DocumentMoniker": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Cons.cs",
+              "RelativeDocumentMoniker": "GameCaro\\Cons.cs",
+              "ToolTip": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Cons.cs",
+              "RelativeToolTip": "GameCaro\\Cons.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T18:37:13.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChessBoardManager.cs",
+              "DocumentMoniker": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\ChessBoardManager.cs",
+              "RelativeDocumentMoniker": "GameCaro\\ChessBoardManager.cs",
+              "ToolTip": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\ChessBoardManager.cs",
+              "RelativeToolTip": "GameCaro\\ChessBoardManager.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAADwv74AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:07:44.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Program.cs",
+              "RelativeDocumentMoniker": "GameCaro\\Program.cs",
+              "ToolTip": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Program.cs",
+              "RelativeToolTip": "GameCaro\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T18:37:18.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Player.cs",
+              "RelativeDocumentMoniker": "GameCaro\\Player.cs",
+              "ToolTip": "C:\\Drivers\\GameCaro-TCP-Socket-main (2)\\GameCaro\\Player.cs",
+              "RelativeToolTip": "GameCaro\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T18:37:15.832Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

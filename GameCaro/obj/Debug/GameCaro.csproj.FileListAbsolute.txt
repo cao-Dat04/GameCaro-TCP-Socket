@@ -1,0 +1,100 @@
+C:\Users\trand\source\repos\GameCaro\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\trand\source\repos\GameCaro\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\trand\source\repos\GameCaro\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\trand\source\repos\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\trand\source\repos\GameCaro\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\trand\source\repos\GameCaro\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\trand\source\repos\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\trand\source\repos\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\trand\source\repos\GameCaro\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\trand\source\repos\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\lqq\Downloads\GameCaro\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\lqq\Downloads\GameCaro\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\lqq\Downloads\GameCaro\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\lqq\Downloads\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\cao\HOC TAP\2024\C#\CaroGame\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\lqq\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\lqq\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\lqq\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\lqq\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\trand\OneDrive\Desktop\GameCaro\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\cao\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\lqq\Downloads\GameCaro-TCP-Socket-main\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\cao\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.pdb
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\bin\Debug\GameCaro.exe
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\bin\Debug\GameCaro.pdb
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.exe
+C:\Users\lqq\Documents\Zalo Received Files\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.pdb
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\bin\Debug\GameCaro.exe.config
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\bin\Debug\GameCaro.exe
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\bin\Debug\GameCaro.pdb
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.csproj.AssemblyReference.cache
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.Form1.resources
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.Properties.Resources.resources
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.csproj.GenerateResource.cache
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.csproj.CoreCompileInputs.cache
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.exe
+C:\Drivers\GameCaro-TCP-Socket-main (2)\GameCaro\obj\Debug\GameCaro.pdb
