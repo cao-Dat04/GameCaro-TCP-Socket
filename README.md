@@ -11,6 +11,8 @@
 - Chat
 
 # Giao diện demo
+![image](https://github.com/user-attachments/assets/70c5ade9-5c80-4aa7-b38b-ef0107b7f8a3)
+
 
 # Ưu điểm
 - Giao diện thân thiện.
