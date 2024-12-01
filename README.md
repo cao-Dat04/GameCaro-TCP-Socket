@@ -1,10 +1,10 @@
 # GameCaro-TCP-Socket
-- Tạo game Caro bằng công nghệ Windows Forms C# với TCP/SOCKET.
+- Tạo game Caro bằng công nghệ **Windows Forms C#** với **TCP/SOCKET**.
 
 # Mục tiêu: tạo trò chơi theo tiêu trí: "Connect - Play - Enjoy"
-- Connect: Kết nối giữa bạn bè thông qua các tính năng như chơi nhiều người hoặc trò chuyện.
-- Play: Trải nghiệm lối chơi Caro truyền thống (or biến tấu luật) với sự cạnh tranh thú vị.
-- Enjoy: Tận hưởng giây phút giải trí vui vẻ cùng bạn bè.
+- **Connect**: Kết nối giữa bạn bè thông qua các tính năng như chơi nhiều người hoặc trò chuyện.
+- **Play**: Trải nghiệm lối chơi Caro truyền thống (or biến tấu luật) với sự cạnh tranh thú vị.
+- **Enjoy**: Tận hưởng giây phút giải trí vui vẻ cùng bạn bè.
 
 # Tính năng
 - Multiplayer: 1 vs 1
@@ -33,5 +33,5 @@
 - Vì có thành viên trong nhóm đã lỡ sử dụng lệnh.
 
 # Lịch sử commit:
-![z6038222528527_d2315aa9db71f1876840742ea90ba9b6](https://github.com/user-attachments/assets/9a63bedb-c557-4486-9cfa-18c46d6e220d)
-![z6038223535345_fc3b085a04a17e21979e2e40e71650ad](https://github.com/user-attachments/assets/c6d7b927-a19d-44ec-90d1-964bfbb5e29a)
+![LichSuGitHub](https://github.com/user-attachments/assets/a1398cd9-5192-4148-b71a-c3adea3b8038)
+
